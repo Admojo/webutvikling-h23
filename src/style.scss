@@ -1,15 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Reem+Kufi+Fun:wght@400;500;600;700&family=Yantramanav:wght@100;300;400;500;700&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-/*Fargepalett */
-.yellow {color: #e6bd43;}
-.color-2 {color: #252525;}
-.color-3 {color: #000;}
-.color-4 {color: #fff;}
-.color-5 {color:#ececec}
 
-
-/* ******************* DETTE MÅ FIKSES *********************************************/
 
 /* ------ Global values -----------------  S T A R T ************************* /
 /*------------------------***************************************------------*/
@@ -31,7 +22,7 @@ html{
 	font-size: calc(1em + 1vw);
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	// font-family: sans-serif;
-	/*background-color: #FFFCF5; Mulig det skal endres på de ulike sidene? 26.oct asn*/
+
 }
 
 body {
@@ -117,7 +108,7 @@ h1, h2, h3, h4, h5, h6, nav {
 	header{
 		display: grid;
 		grid-area: header;
-		background-color: --color-5;
+
 	}
 	
 	#index-header{
@@ -129,14 +120,13 @@ h1, h2, h3, h4, h5, h6, nav {
       	"heading-intro"
       	"knapp";
 		padding: 2em;
-		background-color: #737450;
+		background-color: var(--khaki);
 	}
 	
 	.index-h-bg{
 		
 		background-repeat: no-repeat;
 		background-size: cover;
-		// filter: blur(5px);
 		width: 100%;
 		height: auto;	
 	}
@@ -240,7 +230,7 @@ h1, h2, h3, h4, h5, h6, nav {
 		  align-items: flex-start;
 		  -moz-box-pack: center;
 		  justify-content: center;
-		  max-width:auto;
+		  width:auto;
 		  margin-bottom: 1em;
 		  background-color:#fff4eb;
 		  grid-row: bottom;
@@ -271,7 +261,7 @@ h1, h2, h3, h4, h5, h6, nav {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: baseline;
+		justify-content: center;
 	}
 
 	.contact-form{
@@ -344,7 +334,7 @@ h1, h2, h3, h4, h5, h6, nav {
 
 	.article-card-text{
 		margin-top:auto;
-		// justify-content: space-between;
+		
 	}
 
 	.article-img img{
@@ -352,10 +342,6 @@ h1, h2, h3, h4, h5, h6, nav {
 	}
 
 
-	#article-img-writer-girl {
-		clip-path: circle(32.2% at 50% 50%);
-		max-width: 5em;
-	}
 
 	.article-card:hover{
 		box-shadow: 15px 15px var(--khaki);
@@ -374,7 +360,7 @@ h1, h2, h3, h4, h5, h6, nav {
 	}
 
 	.articlepage img {
-	float: center;
+	align-self: flex-start ;
 	padding:0.5em;
 	/* max-width: ; */
 	}
