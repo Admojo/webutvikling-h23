@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="no">
+    <head>
+    	<title> </title>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Gjoer siden responsiv-->
+		<meta name="twitter:card" content="summary"></meta>
+		<meta property="og:title" content=" " />
+		<meta property="og:description" content=" " />
+		<meta property="og:url" content=" " />
+		<meta property="og:site_name" content=" " />
+		<meta property="og:locale" content="nb_NO" />
+		<meta property="og:type" content="website" />
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+		<link rel="stylesheet" type="text/css" href="src/style.scss" />
+		<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+		<link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.css"/>
+		<link rel="stylesheet" href="fonts/fontawesome/css/brands.css"/>
+		<link rel="stylesheet" href="fonts/fontawesome/css/solid.css"/>
+		<link rel="stylesheet" href="fonts/fontawesome/css/regular.css"/>
+        <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>  
+		<!-- //https://www.geeksforgeeks.org/how-to-include-social-media-icons-in-html/ - implementere SoMe -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<script src="https://kit.fontawesome.com/9380757250.js" crossorigin="anonymous"></script> 
+	</head>
+	<body>
+	<div class="gridMaster">
+		<nav id="top-nav" role="Meny for navigasjon" >
+                <a class="logo" href="index.html"><i class="fa-solid fa-laptop-code"></i></a>
+				<a href="index.html"> Home </a>
+				<a href="portofolio.html"> Portofolio </a> 
+				<a href="about.html"> About </a>
+                <button class="knapp"><a href="#contact" > Contact </a></button>
+                <!-- redirect, kilde:  https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html#creating-an-anchor-link-2 -->
+		</nav>
+    	<header id="index-header" class="index-h-bg"> 
+			    <!-- <header class="header-wrap"> -->
+				    <section role="Eyecatching illustration, abstract and colorful picture of random figures">
+					    <h1 class="heading-primary"> Compeling Headline  </h1>
+                        <p class="heading-intro"> Some text to the heading - Lorem you know ipsum?  Felis imperdiet proin fermentum leo. Et sollicitudin ac orci phasellus egestas tellus. 
+                            Hac habitasse platea dictumst vestibulum rhoncus.  </p>
+                        <button class="knapp" role="Redirect to Read More section"><a href="#our-services"> Read more about our services </a> </button>
+                        <article class="article-card" >
+                            <!-- bilde formatering i artikkelkort -->
+                            <section class="article-img">
+                                    <img src="img/elle-hughes-bJLb2VcprIc-unsplash-S.jpg" alt="bilde som illustrerer portofolio eksempel">
+                            </section>
+                            <!-- tekst i artikkelkort -->
+                            <header class="article-card-text">
+                                <h3> Tempus imperdiet</h3>
+                            </header>
+                        </article>
+                    </section>
+			    <!-- </header content> -->
+		</header>
+    	<main>
+        <!-- About our Company -->
+            <section class = "about-intro-card">
+                <article>
+                    <h3> About our company</h3>
+                    <p> Felis imperdiet proin fermentum leo. Et sollicitudin ac orci phasellus egestas tellus. 
+                        Hac habitasse platea dictumst vestibulum rhoncus. Orci eu lobortis elementum nibh tellus. 
+                        Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Venenatis cras sed felis eget velit.</p>
+                    <button class="knapp"><a href="about.html"> Read more about us </a> </button>  
+                </article>
+            </section>
+        <!-- Our Services  -->
+			<section id="our-services" role="Introduction to IT services I can offer, such as design, develop and maintain a website for your business">
+				<header>
+                    <h2> Our services </h2>
+                </header>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Branding </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </article>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Design </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </article>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Development </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </article>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Support </h3>
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                </article>
+            </section>
+
+
+            <section class ="our-customers">
+                <header>
+                    <h2> Some of our clients </h2>
+                </header>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Customer </h3>
+                </article>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Customer </h3>
+                </article>
+                <article> 
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3> Customer </h3>
+                </article>
+            </section>
+
+        <!-- Contact Form -->
+        <!-- Kilde: https://www.w3schools.com/howto/howto_css_register_form.asp -->
+			<section id="contact">
+				<article>
+                    <header><h2> Contact us </h2></header>
+                    <form>
+                        <section class = "contact-form">
+                            <h2> Send us a message </h2>
+                            <label for="name"><b>Name</b></label>
+                            <input type="text" placeholder="Ola Nordmann" name="name" required>
+                            <label for="subjcet"><b>Subject</b></label>
+                            <input type="text" placeholder="Branding" name="subject" required>
+                            <label for="message"><b>Message</b></label>
+                            <input type="text" placeholder="Your message here.." name="message" required>
+                            <button class ="submit" type="sumbit"> <a> Sign me up! </a></button> 
+                        </section>
+                    </form>
+                </article>
+			</section>	
+		</main>
+		<footer role="Contact info on page and related social media platforms"> 
+                <a class="logo" href="index.html"><i class="fa-solid fa-laptop-code"></i> </a>
+                <p> Copyright </p>
+                <section id="footer-item">   
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                </section>	
+    	</footer>
+	</div>	
+    </body>
+</html>
